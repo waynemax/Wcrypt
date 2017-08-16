@@ -1,0 +1,6 @@
+DirectoryIndex index.php
+AddDefaultCharset utf-8
+RewriteEngine On
+# Отключаем вывод ошибок пользователям
+	 php_flag display_errors off
+
