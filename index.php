@@ -1,5 +1,5 @@
 <?
-	require_once("wcrypt/wcrypt.php");
+	require_once("wcrypt.php");
 	$wcrypt = new wcrypt;
 	$a =  $wcrypt->wc_en("php encode example");
 ?>
