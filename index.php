@@ -8,8 +8,8 @@
 	<head>
 	<meta charset="utf-8">
 	<title>wcrypt</title>
-		<script src="wcrypt/w_data.js"></script>
-		<script src="wcrypt/wcrypt.js"></script>
+		<script src="w_data.js"></script>
+		<script src="wcrypt.js"></script>
 	</head>
 	<body>
 	<script>
