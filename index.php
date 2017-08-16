@@ -18,8 +18,7 @@
 				strOut.push("<?=$a;?>");
 				strOut.push("<?=$wcrypt->wc_de($a);?>");
 				var jsIn = wcrypt_encode("js encode example");
-				strOut.push(jsIn);
-				strOut.push(wcrypt_decode(jsIn));
+				strOut.push(jsIn, wcrypt_decode(jsIn));
 				document.body.innerHTML = strOut.join('<br>');
 		};
 		</script>
